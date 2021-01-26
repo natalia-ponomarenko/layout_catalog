@@ -10,19 +10,24 @@
   border-radius: 5px;
 
   &__img {
+    box-sizing: content-box;
+
     width: 160px;
     height: 134px;
-    margin: 17px 19px 0;
+    padding: 14px 0;
+    margin: 15px 16px 0;
+
+    border: 3px solid transparent;
     transition: transform 1s;
   }
 
   &__img:hover {
-    transform: scale(1.25);
+    transform: scale(1.2);
     border: 3px solid #f3f3f3;
   }
 
   &__product {
-    margin: 41px 14px 5px;
+    margin: 27px 14px 5px;
 
     font-size: $font-size-regular;
     font-weight: $font-medium;
