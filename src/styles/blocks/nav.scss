@@ -23,6 +23,7 @@
     @include text-style;
     font-weight: $font-medium;
     color: black;
+    transition: 0.5s;
   
     &:hover {
       color: $hover-active-color;
