@@ -4,16 +4,12 @@
 .catalog {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  gap: 50px 48px;
   
   max-width: 1024px;
   padding: 0 40px;
 
   &__container {
     margin: 0 auto;
-  }
-
-  &__item {
-    margin-bottom: 50px;
-    margin-right: 48px;
   }
 }
