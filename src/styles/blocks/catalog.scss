@@ -2,9 +2,9 @@
 @import "mixins";
 
 .catalog {
-  @include flex-space-between;
-  flex-wrap: wrap;
-
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  
   max-width: 1024px;
   padding: 0 40px;
 
@@ -13,7 +13,7 @@
   }
 
   &__item {
-    display: flex;
     margin-bottom: 50px;
+    margin-right: 48px;
   }
 }
